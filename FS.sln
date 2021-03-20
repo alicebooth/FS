@@ -5,12 +5,16 @@ VisualStudioVersion = 16.0.31105.61
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FS", "FS.vcxproj", "{9527581B-F768-44DF-8977-EE417F9DFDAA}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sdk_demo_v2", "zoom-sdk-windows-5.4.54524.1229\demo\sdk_demo_v2\sdk_demo_v2.vcxproj", "{2CC3B104-B46A-47AC-B2EE-8123101FD3A4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
 		Debug|x86 = Debug|x86
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
+		sdk|x64 = sdk|x64
+		sdk|x86 = sdk|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{9527581B-F768-44DF-8977-EE417F9DFDAA}.Debug|x64.ActiveCfg = Debug|x64
@@ -21,6 +25,22 @@ Global
 		{9527581B-F768-44DF-8977-EE417F9DFDAA}.Release|x64.Build.0 = Release|x64
 		{9527581B-F768-44DF-8977-EE417F9DFDAA}.Release|x86.ActiveCfg = Release|Win32
 		{9527581B-F768-44DF-8977-EE417F9DFDAA}.Release|x86.Build.0 = Release|Win32
+		{9527581B-F768-44DF-8977-EE417F9DFDAA}.sdk|x64.ActiveCfg = sdk|x64
+		{9527581B-F768-44DF-8977-EE417F9DFDAA}.sdk|x64.Build.0 = sdk|x64
+		{9527581B-F768-44DF-8977-EE417F9DFDAA}.sdk|x86.ActiveCfg = Release|Win32
+		{9527581B-F768-44DF-8977-EE417F9DFDAA}.sdk|x86.Build.0 = Release|Win32
+		{2CC3B104-B46A-47AC-B2EE-8123101FD3A4}.Debug|x64.ActiveCfg = Debug|x64
+		{2CC3B104-B46A-47AC-B2EE-8123101FD3A4}.Debug|x64.Build.0 = Debug|x64
+		{2CC3B104-B46A-47AC-B2EE-8123101FD3A4}.Debug|x86.ActiveCfg = Debug|Win32
+		{2CC3B104-B46A-47AC-B2EE-8123101FD3A4}.Debug|x86.Build.0 = Debug|Win32
+		{2CC3B104-B46A-47AC-B2EE-8123101FD3A4}.Release|x64.ActiveCfg = Release|x64
+		{2CC3B104-B46A-47AC-B2EE-8123101FD3A4}.Release|x64.Build.0 = Release|x64
+		{2CC3B104-B46A-47AC-B2EE-8123101FD3A4}.Release|x86.ActiveCfg = Release|Win32
+		{2CC3B104-B46A-47AC-B2EE-8123101FD3A4}.Release|x86.Build.0 = Release|Win32
+		{2CC3B104-B46A-47AC-B2EE-8123101FD3A4}.sdk|x64.ActiveCfg = sdk|x64
+		{2CC3B104-B46A-47AC-B2EE-8123101FD3A4}.sdk|x64.Build.0 = sdk|x64
+		{2CC3B104-B46A-47AC-B2EE-8123101FD3A4}.sdk|x86.ActiveCfg = Release|Win32
+		{2CC3B104-B46A-47AC-B2EE-8123101FD3A4}.sdk|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
